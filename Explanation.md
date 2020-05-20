@@ -18,16 +18,19 @@ But the real problem while extracting the internal link was the variety of inte
 Hurdle One: Below is a list of internal links which may occur while extracting:
 -----------
    1. http://www.website.com/page
+	
    2. http://www.website.com/?page_id={num}
-   3. ?page_id={num}
-   4. http://www.website.com/#anchor
-   5. #anchor
-   6. Duplicate internal links So we have to use multiple regular expressions to filter internal links.
+   
+	3. ?page_id={num}
+   
+	4. http://www.website.com/#anchor
+   
+	5. #anchor
+   
+	6. Duplicate internal links So we have to use multiple regular expressions to filter internal links.
 
 -----------
-Hurdle Two:Any internal link on the home page might have any name like <a href="http://www.website.com/page">Read More</a> but we can 
------------
-not save the internal link like that.
+Hurdle Two:Any internal link on the home page might have any name like <a href="http://www.website.com/page">Read More</a> but we can not save the internal link like that.
 -----------
 
 For that, we have to get the UID of a page using WordPress using url_to_postid function once we get the uid of URL we can easily
