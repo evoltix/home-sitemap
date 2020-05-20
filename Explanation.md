@@ -17,19 +17,14 @@ But the real problem while extracting the internal link was the variety of inte
 -----------
    Hurdle One: Below is a list of internal links which may occur while extracting:
 -----------
-  
-        1. http://www.website.com/page
-	
-        2. http://www.website.com/?page_id={num}
-   
-	3. ?page_id={num}
-   
-	4. http://www.website.com/#anchor
-   
-	5. #anchor
-   
-	6. Duplicate internal links So we have to use multiple regular expressions to filter internal links.
-
+<ul>
+  <li> 1. http://www.website.com/page
+  <li> 2. http://www.website.com/?page_id={num}
+  <li> 3. ?page_id={num}
+  <li> 4. http://www.website.com/#anchor
+  <li> 5. #anchor
+  <li> 6. Duplicate internal links So we have to use multiple regular expressions to filter internal links.
+</ul>
 -----------
     Hurdle Two:Any internal link on the home page might have any name like <a href="http://www.website.com/page">Read More</a> but we can not save the internal link like that.
 -----------
