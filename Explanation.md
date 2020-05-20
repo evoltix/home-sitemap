@@ -1,8 +1,3 @@
-<style type="text/css">
-<!--
-.style1 {font-weight: bold}
--->
-</style>
 <p><strong> =>The problem to be solved in your own words</strong> </p>
 <p>This task is a very good mental exercise. The main requirement looks very simple a { sitemap for the home page}.
   But it's not that much simple :).</p>
@@ -50,7 +45,7 @@
 <p><strong> hs_admin_response  is an action hook to render the notice and output in the admin area</strong>.</p>
 <p><strong> hs_add_cron_interval is a filter to control the schedule time interval</strong>.</p>
 <p class="style1">&nbsp;</p>
-<p class="style1"><strong>=></strong>The technical decisions you made and why:</p>
+<p><strong>=>The technical decisions you made and why:</strong></p>
 <p> <strong>Option1</strong>: I can use a simple module in CakePHP and then connect it with WordPress website using WordPress API  </p>
 <p>or</p>
 <p><strong>Option2:</strong> I can create a simple WordPress plugin that can run on any WordPress website.
