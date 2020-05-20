@@ -25,10 +25,9 @@ But the real problem while extracting the internal link was the variety of inte
   <li> 5. #anchor
   <li> 6. Duplicate internal links So we have to use multiple regular expressions to filter internal links.
 </ul>
------------
-    Hurdle Two:Any internal link on the home page might have any name like <a href="http://www.website.com/page">Read More</a> but we can not save the internal link like that.
------------
-
+<
+b>    Hurdle Two:Any internal link on the home page might have any name like <a href="http://www.website.com/page">Read More</a> but we can not save the internal link like that.
+</b>
 For that, we have to get the UID of a page using WordPress using url_to_postid function once we get the uid of URL we can easily
 get the title of the Internal link and now link will look like<a href="http://www.website.com/page">Page Title</a> 
 
