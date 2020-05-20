@@ -8,11 +8,7 @@
 	<!-- ** WHAT TO SCAN ** -->
 
 	<file>.</file>
-	<!-- Ignoring Files and Folders: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#ignoring-files-and-folders -->
-	<exclude-pattern>/Tests/*</exclude-pattern>
-	<exclude-pattern>/vendor/*</exclude-pattern>
-
-	<!-- ** HOW TO SCAN ** -->
+		<!-- ** HOW TO SCAN ** -->
 
 	<arg value="sp"/><!-- Show sniff and progress -->
 	<arg name="colors"/><!-- Show results with colors -->
